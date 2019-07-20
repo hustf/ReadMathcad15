@@ -1,0 +1,6 @@
+name = "ReadMathcad"
+authors = "hustf"
+
+[deps]
+LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
+MechanicalUnits = "e6be9192-89dc-11e9-36e6-5dbcb28f419e"
