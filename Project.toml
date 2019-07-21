@@ -1,7 +1,9 @@
 name = "ReadMathcad15"
 uuid = "ae0d9b3c-b4e8-59b7-8d7c-51439d3f88a1"
 authors = ["hustf <hustf@users.noreply.github.com>"]
-
+version = "0.0.1"
 [deps]
 LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
 MechanicalUnits = "e6be9192-89dc-11e9-36e6-5dbcb28f419e"
+ReadMathcad15 = "ae0d9b3c-b4e8-59b7-8d7c-51439d3f88a1"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"

@@ -1,4 +1,4 @@
-module ReadMcd
+module ReadMathcad15
 
 export unitoverride_of_variable, apply_of_variable, result_of_variable, parentregion_of_variable
 
