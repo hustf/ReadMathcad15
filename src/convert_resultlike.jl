@@ -33,4 +33,5 @@ macro assign(dic, vars...)
     push!(expr.args, :(nothing))
     expr
 end
+
 end

@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest bcf4f93fe0e47303a41150743623e6a1?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>Mads</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords/>
+			<revisedBy>Mads</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>9</revision>
+			<documentID>BE3C2E0D-EA32-481C-BA44-0DCEFB38135E</documentID>
+			<versionID>3F4640FA-B772-4D28-9B55-05D0B3117207</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="en" UI="en"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="false" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="error">
+				<compatibility multiple-assignment="MC12" local-assignment="MC11"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="true" ruler-unit="in">
+				<tabs>
+					<tab show-guide="true" position="4.5"/>
+					<tab show-guide="true" position="162"/>
+				</tabs>
+			</ruler>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="true" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="82" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="35" left="6" top="5.25" width="53.25" height="15.75" align-x="6" align-y="18" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Heading 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Vindlast</p>
+			</text>
+		</region>
+		<region region-id="47" left="6" top="26.25" width="243" height="12" align-x="6" align-y="36" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Vindlasten bliver beregnet i henhold til DS/EN 1991-1-4. </p>
+			</text>
+		</region>
+		<region region-id="53" left="6" top="74.25" width="423" height="39" align-x="6" align-y="84" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Basisvindhastigheden, v<f family="Arial" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+							<sub>b</sub>
+						</inlineAttr>
+					</f>, er oplyst i projektmaterialet til 24 m/s. Denne grundværdi er specificeret overalt i Danmark bortset fra en randzone i Jylland, der ligger mindre end 25 km fra Vesterhavet og Ringkøbing fjord.</p>
+			</text>
+		</region>
+		<region region-id="19" left="6" top="128.25" width="102.75" height="12" align-x="6" align-y="138" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Basisvindhastigheden:</p>
+			</text>
+		</region>
+		<region region-id="36" left="162" top="122.25" width="45.75" height="27.75" align-x="179.25" align-y="138" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245190740" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245190380" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">02619203e14537c04ff178190944a86d</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="b">v</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>24</ml:real>
+							<ml:apply>
+								<ml:div/>
+								<ml:id xml:space="preserve">m</ml:id>
+								<ml:id xml:space="preserve">s</ml:id>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="1">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="44.25" height="26.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="21" left="6" top="164.25" width="70.5" height="12" align-x="6" align-y="174" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Luftdensitet:</p>
+			</text>
+		</region>
+		<region region-id="37" left="162" top="158.25" width="51.75" height="33.75" align-x="174" align-y="174" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245190580" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245191060" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">bd99efe3e13b6d1ed1b75d312bf99413</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">ρ</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>1.25</ml:real>
+							<ml:apply>
+								<ml:div/>
+								<ml:id xml:space="preserve">kg</ml:id>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">m</ml:id>
+									<ml:real>3</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="2">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="50.25" height="32.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="71" left="6" top="218.25" width="433.5" height="39" align-x="6" align-y="228" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Det er ligeledes anført i projektmaterialet at bygningen henføres til terrænkategori II, som betyder det er et landbrugsland med læhegn, spredte små landbrugsbygninger, huse eller træer. Dermed kan både ruhedslængden, z<f family="Arial" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+							<sub>0</sub>
+						</inlineAttr>
+					</f>, og reference ruhedslængden, z<f family="Arial" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+							<sub>0.II</sub>
+						</inlineAttr>
+					</f>, sættes lig 0.05 m</p>
+			</text>
+		</region>
+		<region region-id="72" left="6" top="260.25" width="85.5" height="12" align-x="6" align-y="270" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Ruhedslængden:</p>
+			</text>
+		</region>
+		<region region-id="73" left="162" top="261" width="45.75" height="16.5" align-x="177" align-y="270" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245190580" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245190740" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">ca39f336e6b070097773e6a1e3789f1f</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="0">z</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>0.05</ml:real>
+							<ml:id xml:space="preserve">m</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="3">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="44.25" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="74" left="6" top="302.25" width="93" height="12" align-x="6" align-y="312" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Ref. ruhedslængde:</p>
+			</text>
+		</region>
+		<region region-id="75" left="162" top="303" width="54" height="16.5" align-x="185.25" align-y="312" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245190740" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245189940" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">1812d0f083b91dc4ea013c11f247f70b</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="0.II">z</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>0.05</ml:real>
+							<ml:id xml:space="preserve">m</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="4">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="52.5" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="61" left="6" top="356.25" width="79.5" height="12" align-x="6" align-y="366" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Bygningshøjde:</p>
+			</text>
+		</region>
+		<region region-id="62" left="162" top="357" width="36.75" height="12.75" align-x="172.5" align-y="366" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">z</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>7.1</ml:real>
+						<ml:id xml:space="preserve">m</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="63" left="6" top="404.25" width="78" height="12" align-x="6" align-y="414" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Terrænfaktor:</p>
+			</text>
+		</region>
+		<region region-id="64" left="162" top="388.5" width="121.5" height="41.25" align-x="177" align-y="414" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245191140" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245189980" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">e3c9974636f8f32852752f7f752255a6</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="r">k</ml:id>
+						<ml:eval placeholderMultiplicationStyle="default">
+							<ml:apply>
+								<ml:mult/>
+								<ml:real>0.19</ml:real>
+								<ml:apply>
+									<ml:pow/>
+									<ml:parens>
+										<ml:apply>
+											<ml:div/>
+											<ml:id xml:space="preserve" subscript="0">z</ml:id>
+											<ml:id xml:space="preserve" subscript="0.II">z</ml:id>
+										</ml:apply>
+									</ml:parens>
+									<ml:real>0.07</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math30">
+								<ml:real>0.19</ml:real>
+							</result>
+						</ml:eval>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="6">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="120" height="39.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="65" left="6" top="422.25" width="96" height="12" align-x="6" align-y="432" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">[DS/EN-1-4, tabel 4.1]</p>
+			</text>
+		</region>
+		<region region-id="81" left="6" top="470.25" width="302.25" height="15" align-x="6" align-y="480" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Dermed kan det karakteristiske peakhastighedstryk, q<f family="Arial" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+							<sub>p</sub>
+						</inlineAttr>
+					</f>, bestemmes: </p>
+			</text>
+		</region>
+		<region region-id="76" left="6" top="506.25" width="102.75" height="12" align-x="6" align-y="516" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Peakhastighedstryk:</p>
+			</text>
+		</region>
+		<region region-id="77" left="162" top="494.25" width="217.5" height="52.5" align-x="179.25" align-y="516" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245190380" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="8C919AC8-8731-4586-93F3-B525D168E4E3" version-id="F37A45D5-2301-4DC9-886E-27E23E2EB185" branch-id="00000000-0000-0000-0000-000000000000" revision-num="245191060" is-modified="false" region-id="0" href="C:\Users\Mads\Dropbox\Konstruktioner i træ\Projekt\Beregninger\Vindlast.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">5d1966edfd84f97851aca3b33b4d73e4</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="p">q</ml:id>
+						<ml:eval placeholderMultiplicationStyle="default">
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult style="auto-select"/>
+									<ml:apply>
+										<ml:mult/>
+										<ml:parens>
+											<ml:apply>
+												<ml:plus/>
+												<ml:real>1</ml:real>
+												<ml:apply>
+													<ml:div/>
+													<ml:real>7</ml:real>
+													<ml:apply>
+														<ml:id xml:space="preserve">ln</ml:id>
+														<ml:apply>
+															<ml:div/>
+															<ml:id xml:space="preserve">z</ml:id>
+															<ml:id xml:space="preserve" subscript="0">z</ml:id>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+										</ml:parens>
+										<ml:apply>
+											<ml:div/>
+											<ml:real font="0">1</ml:real>
+											<ml:real>2</ml:real>
+										</ml:apply>
+									</ml:apply>
+									<ml:id xml:space="preserve">ρ</ml:id>
+								</ml:apply>
+								<ml:apply>
+									<ml:pow/>
+									<ml:parens>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:id xml:space="preserve" subscript="b">v</ml:id>
+												<ml:id xml:space="preserve" subscript="r">k</ml:id>
+											</ml:apply>
+											<ml:apply>
+												<ml:id xml:space="preserve">ln</ml:id>
+												<ml:apply>
+													<ml:div/>
+													<ml:id xml:space="preserve">z</ml:id>
+													<ml:id xml:space="preserve" subscript="0">z</ml:id>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+									</ml:parens>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:unitOverride>
+								<ml:apply>
+									<ml:div/>
+									<ml:id xml:space="preserve">kN</ml:id>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">m</ml:id>
+										<ml:real>2</ml:real>
+									</ml:apply>
+								</ml:apply>
+							</ml:unitOverride>
+							<result xmlns="http://schemas.mathsoft.com/math30">
+								<unitedValue>
+									<ml:real>0.77002614191988883</ml:real>
+									<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+										<unitReference unit="kilonewton"/>
+										<unitReference unit="meter" power-numerator="-2"/>
+									</unitMonomial>
+								</unitedValue>
+							</result>
+						</ml:eval>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="7">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="216" height="51" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="78" left="6" top="524.25" width="101.25" height="12" align-x="6" align-y="534" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">[DS/EN-1-4, formel 4.8]</p>
+			</text>
+		</region>
+		<region region-id="82" left="6" top="569.25" width="433.5" height="45" align-x="6" align-y="582" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Vindens peakhastighedstryk, q<f family="Arial" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+							<sub>p</sub>
+						</inlineAttr>
+					</f>, bliver beregnet til 0.77 kN/m<f family="Arial" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+							<sup>2</sup>
+						</inlineAttr>
+					</f>, som bliver adderet på hallens formfaktorer, som er udregnet i et seperat excel-fil, for at danne det karakteristiske vindtryk, w<f family="Arial" charset="0" size="10">
+						<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+							<sub>e</sub>
+						</inlineAttr>
+					</f>, som virker på konstruktionens ydre flader. </p>
+			</text>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1">iVBORw0KGgoAAAANSUhEUgAAAD0AAAAlCAYAAADx5+EfAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGWSURBVGhD7ZeLrcMgDEWZi4GYx9Ow
+DMO4NhAwEJ6SJn1tgCtREakNPv5ShRNqQc+iBT2LFvQsGgvaGlQa0IJGpRRqcOjEftNA0BYN
+wSVAB6iLvaFvBI0VaQnX25MW9OM1H7RD0KGmjZV7Zg7NTPED6cegs7FKaRQNN8maAHJFPwXt
+wCRQhuPxU3D7NB0MulBVhywLgHBnpL1nfVrFg3jQizo4rjAvrxrmoWWkyR5+583pHepJvpA9
+u1NWByXrs1pHrCbIfIuid0H4zf01Ha9x/ijydDwneL3TWD4jypYiymRLfOhB7zp3Z/nv+s+k
+HO0c5e16dxb6/UhbU9VyKr285F36rCpoUqzlwq5/jDTP1HQ2nWuqQ+9Pby+OUOnpBE1pxiPj
+b0+/38jaiLaO/hD0jjw0GSHq/Y55+S2dgC69zh6/Ulff1ILuqob2z1XdP0jHoJvx81xg1kHo
+Zyn9lZTNV2hAaB6ZOROdtTNA53nfa7RDQgdt1+e2/wyZ3iAibE17qxu0pmMT47VzbRw4vfta
+0LNoQmjEF0v/pBlQZlMKAAAAAElFTkSuQmCC</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAEUAAAAtCAYAAAD4KqYeAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIwSURBVGhD7ZjNscIgEIBTFwUxFmEJ
+HujCDrjZg1cnJzuwA2Q3kCyw+TFOnvNgvxnegPiifO4uIZ0TCkQKg0hhECkM9UrpjVOddjYM
+P6FSKdbprnOdSMmQSGEgUnqjfNT4yFHG9TBn9TAmTRmcQdqIFGvctGZILTWOUZhO46lyKcop
+5SMhWXTvjGpcitZ+0TFtIjgXU6esO02kj9W0Zvj0ySVlVCoFUiREAqTGWFhBEpkjjWbQz6Rw
+uTxBv/iU/wPxHgRaGfrr9M7aLE4gqsh3+YmUcYuckdIbPYqA0Kc1gc7tAT6bbr8AvPYPIoVA
+agONknxh2ynTJ79WIuX1ernT6eQulwu+GcY8w5fbsqY5PpIys3vsF7NMIgVE3G437F+vVxS0
+DF+0sK0seLMUXyT5xcMPs6emrFNIeTwe2L/f7zg+im1SlrdPq0spyQ+zo+E18G8gvghsk3Js
+pHCLnoDP/qNIeT6f2N+WPvtZkwLz47SvITpPodm0+p5CCjQotOfz+bhCS0+p8SKheMIQt+E4
+jy3cq3D/dwCFFEib1hEpDIWUuPu0ANY1TMf0KJFIaQpSvPOi364USraTiRS43zHpTta2lHAb
+AHVFIiUDawo5TogUJD1jiRRACu3AdI9SHhkkUhhECkOdUuA07QunDSkC9SKmy5bHDRVKGR5r
+jALo81zsrz+YqjNS6OLn+guIFAaRwlChlOlhura0D07CvcnKo8w6I+VLRAqDSGEQKQXOvQGV
+mUdmRYUh8AAAAABJRU5ErkJggg==</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAD0AAAAWCAYAAABzCZQcAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFFSURBVFhH7ZQBDsUQDIady4Gcx2lc
+xmH6lI4ahuxle3vzJRJrOu3fKgEvZIl+C0v0bVgNUggQQoK2ZNvT9DGgvB2Xcl99fkA0Jk1C
+vLBa4m0fq1W7UA3uF20UCBUlgJYC4udG0yd1WU4oT6Lx4HhN3CoiHxGCT/1CWC2zWEaVAro+
+dPWjDbVIDQb/I7s/g/ZRtDXG1RBBAWOzURK6kBVvW42KYDJcQEt0zyflves+LwiNRnG98cAs
+P/rp8JE5wfdEo52axee+ss9FZ7ODYNV6jwxnvtN5zNmZ5qB9WjQT6LDWbYaCnWVXWDeLlR72
+fVyusfujovHK7Dvjh5+pbF2rkNSJgvhkMC4bIbKlmld8sCneFvINpNumDN/jEeExK2aaMzpL
+T2OJLrhkpq/nWPTQI/M8OqIdtQfk4fRF/yFL9Ft4oWiAD5+zcqu4c1TJAAAAAElFTkSuQmCC</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAAEgAAAAWCAYAAABjadrAAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFsSURBVFhH7ZSBjcMgDEWZi4GYh2lY
+hmFcDBQMxDG00elQ+VKkYDnE/4Gt4OhWB5CgA0jQASRoP0DeglYKlNJgfY71YnMcmBjHx4SV
+rM0AocFsOkK4MsnneGt4qIz2AuQMKFPsgtUKyvItNqfeHr1AqQLCjcv1C8/w56eUCv1ke291
+U5czo1kxJ7dfiaFvbcHhdzke98jvBZB3LvBGoYG5/vxO6XSbQ3k/DD0snJrlAEk51WN3qyi8
+3J5Di+GGTX35I24oYj411q+f1HOAMJ4vAZ1TF+8toKZ/UUhYGopjEVxRrdZvUFvf6gyiwvgy
+IAIjyPvwMvWzEcgcoE/UHViYHeNfJnKCr1LfLCA01Z9iHFaECGd8DVDq+yvQU4qFY42k5XOs
+nuVFDh52jCVvSfUWG0ffcYs0qIcZRDXfzyuA9tIBJOgWUHD6z2bQ3+se0NRQ/GlAQcJQRBh0
++PXr3SUD+nEdQIIOIEEH0K0AXh++3sqLoUmVAAAAAElFTkSuQmCC</item>
+		<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAADEAAAARCAYAAAB0MEQqAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADuSURBVEhL7ZSLDYQgDIaZi4E6D9N0
+mQ7TaxEFtOKDy8UzfIkGX6Rff9DxCxgST2FIXAMZnGNXHIDp0QoKnt3eQ4PfSSCKRgYBquuZ
+KKCSj5SoIA4Q5GxzPwmEKmp7kmlJXJjfhgJD2FMwJLQ2HxhTSl6+nRPT8SJBEvc0rRZqR52R
+TvpCuDxOGFIAbjisJPJe0oK1Ab4ai2B6cwHhC51u0l5KyiaJVGy8Y4xrCY3tlEFPEtLZg3c6
+JDQ2v8RM1OpVB9KoI8/bErqMjjvav7E3v9ZYSDFn+YOJN3PqgOVYP50292ZP/CND4im8QIL5
+Ay3JFPg2F/iEAAAAAElFTkSuQmCC</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAKIAAAA3CAYAAACPWZHrAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQjSURBVHhe7Z3rkaQgEIBN4PLYGMzi
+kiCPzcBo/HWZGAxHK840PaCAiDDdX9VUra7jY/jsbmAegxaEBhARhSYQEYUmEBGFJhARW2GZ
+9DgMehhGPS12HcW7zazVum5/HDy/YUTEJlj0NO4CGbHGyayhBLaZZ7P0ZlbKWe4FEbEFZqUH
+9dZnVoNGixsx24Csyidx+4iIDbBMox5RPqXLQMw2kLoVXdcJImIDlBJxmVSX9SHAVsRlnvQ0
+12m1s2OVEbHftAywFBEK+s/66l4WU+MF02aRGtF0YGpfVEHYiQjp67H2MjLRSLeBesQwRHPW
+a/ZtA6L36yEzEaEBH26tWQXG+XxjhOs6uuwfK+x12GaHkYhQQzXQWL5oJjASEQTwhqL6BKMi
+Y9iICL3M5MaHDgKePiuV1oO1Il+YiAiFfnpaXubZplCYzy2Z1kPTeHxhIuK1oY2PoZKDTkMc
+eTfGN8NDRCNO9tQXGb/boqMVcBUyTyipE114iJhdkyHpDMti/nDEhMjme/PBOT1Px90BGxFz
+ZIGUTDsr0OmhMxw5ksN+cs7pWxERE6FzvCJiGUTERETEexARUylWI4qIGB4i/v7on1/792VI
+rzlzPPDf3z8Fz6l/JCLmcHkcUSIi5S3ihTGxy0Q2LDSeO6Zn19lebbBhS4tYgC5EvLtdEFZE
+SDfwpCdEjBsgfl0YvirYfk+NRzeSiJhBhXZBPB8RE4p/eufBclQPVkRMp0a7ILwirjsGy6ML
+8S2i5ryw9CKOTtp3wVHPFRGTqdIuCH9EhA/7xBlI2O6cvTZwHoFXHU4an2TKBYNguJwQEUM0
+2i4IIqI5OJxwxVa7dMEG2P79wu5FNYnQJyI6DVP4EaKuiOnc0y5hPkRUyuw0+71y6XceSPL+
+X1ot4uDshyARsc12QXhTc0woLQfpnR3cBMELhotFqeAD9iLmUKFdEFZEdMfADtcdwLLZiY2U
+07St8794+Z2VlfUYcDwUwu261z5f52TPEa87i+AiYh53twsiXMSsbII5B+kREbF5TkQ07BEx
+Vu0WERGbR0R8CBHRhYeIRd99UwZ5943LiYi42x/X+2kSiYjNcx4Rv4EYEc02r95fhc6ZiOgi
+Ilru+zC9HxHRRUQkwGC+s61vLA3hTGWZJ9LlECKiCxsRo2aKID07dpDZhUCkpDNRMTNT8rlm
+Fx4iGonOv+kBSWdI+TB9jojyTQ8uPEQEyU7yoJNSbVqF9IkjZEiwdBFB6o5HIW6AiYh5DQ8i
+xgiWLqK5MbLf4fSdMBFxk+rQDQ+3iRhbszKCjYhQJyY3/k01otSHn/ARMSs9k15zIJ2miXhe
+r3KEkYgGSImpEvjGEe062BVIhzs4dJki0dAPLxENT//OSq+/lXc37EQEmvvlKYGniEDV3+Kb
+6h2rV9iKKLSE1v8BbuguH0f9IB4AAAAASUVORK5CYII=</item>
+		<item item-id="7">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</item>
+	</binaryContent>
+</worksheet>
