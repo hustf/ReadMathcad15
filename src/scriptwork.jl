@@ -3,10 +3,10 @@ using MechanicalUnits
 fnam = "test/public_files/vindlast.xmcd"
 fnam = "test/Beamcheck.xmcd"
 syms = assignable_pairs(fnam);
-pa = syms[31]
+pa = syms[1]
 println(pa[1])
 println(pa[2])
-ev(syms[33][2])
+ev(pa[2])
 for i = 1:length(syms)
     pa = syms[i]
     println(i, "\t", pa[1], " = ")
