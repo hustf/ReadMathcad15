@@ -14,12 +14,13 @@ module read_mc15_file
  The function find_first_element was added after exploring the 
  file format. 
  It should be possible to restructure and simplify the code to using that.
- Another approach to simplifying this code is using EzXML.jl,
- but that package does not install easily on Windows.
+ Another approach to simplifying this code is using EzXML.jl.
 =#
 
 
-export assignable_pairs,
+export print_symbols_from,
+    symbols_from,
+    assignable_pairs,
     unitoverride_of_variable, 
     apply_of_variable,
     result_of_variable, 
@@ -33,6 +34,38 @@ using ..LightXML
 # 
 #  Public API
 # 
+"Print a list of available symbols from the Mathcad file, suitable for copying to @assign filename ..."
+function print_symbols_from(filename)
+    sms = string.(symbols_from(filename))
+    colwidth = maximum(textwidth.(sms)) + 2
+    _, co = displaysize(stdout)
+    cols = div(co, colwidth)
+    for i in 1:length(sms)
+        print(rpad(sms[i], colwidth));
+        curpos = (((i-1) % cols ) + 1) * colwidth
+        remaining = co - curpos
+        if remaining < colwidth
+           print(stdout, repeat(' ', remaining))
+        end
+    end
+end
+
+"""
+Symbols which are available for importing from the Mathcad file
+```Julia-repl
+Julia> using ReadMathcad15
+Julia> fnam = "myfile.xmcd"
+Julia> @assign fnam symbols_from(fnam)...
+```
+The symbols are returned in a vector, following the sequence in which they are defined.
+"""
+function symbols_from(filename)
+    rootnode, xdoc = filename |> root_node
+    defregions = rootnode |> regions_root |> math_definition_elements_with_id_result
+    symbols = defregions .|> id_element .|> id
+    free(xdoc)
+    symbols    
+end
 
 """
 Return a vector of pairs, symbols => eval chunk in xml string format.
@@ -549,5 +582,7 @@ function find_first_element(xe::XMLElement, path::AbstractString)
     end
     nothing
 end
+
+
 
 end

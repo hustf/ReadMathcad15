@@ -1,5 +1,8 @@
 module ReadMathcad15
-export assignable_pairs,
+export print_symbols_from,
+    symbols_from,
+    @assign,
+    assignable_pairs,
     ev,
     unitoverride_of_variable, 
     apply_of_variable,
@@ -16,7 +19,7 @@ global const mole = mol
 include("read_mc15_file.jl")
 using .read_mc15_file
 include("evaluate_mathcad15.jl")
-#include("convert_resultlike.jl")
+include("assign.jl")
 
 
 function __init__()
